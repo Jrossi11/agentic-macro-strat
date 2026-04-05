@@ -1,0 +1,496 @@
+[
+    {
+        "quarter": "2023-Q1",
+        "signals": [
+            {
+                "commodity": "Crude Oil",
+                "direction": "LONG",
+                "weight_equal": 0.3333333333333333,
+                "weight_severity": 0.28260869565217395,
+                "take_profit": 88.57,
+                "stop_loss": 74.72,
+                "asymmetry_ratio": 3.0,
+                "upside_potential": 10.35,
+                "downside_risk": 6.9,
+                "is_priced_in": false,
+                "technical_context": "Price is trading below both the 50-day MA (81.43) and 200-day MA (94.89), indicating a bearish trend. However, the price is well above the 20-day low (70.08), suggesting a consolidation phase where supply-side catalysts are not yet fully reflected in the price action.",
+                "rationale": "The combination of Russian production cuts and the potential for OPEC+ to unwind voluntary cuts creates a volatile supply environment. Given the price is currently suppressed below the 50-day MA, the market is underestimating the supply tightening impact, providing a favorable risk-reward setup for a long position.",
+                "catalysts": [
+                    {
+                        "description": "Russian oil production cut in response to price cap and EU import ban",
+                        "commodity": "Crude Oil",
+                        "impact_type": "Supply Shock",
+                        "severity": 7,
+                        "likelihood_ratio": 1.0,
+                        "region": "Russia",
+                        "date_detected": "2023-02-10",
+                        "start_date": "2023-03-01",
+                        "end_date": null,
+                        "supply_impact_value": 500000.0,
+                        "supply_impact_unit": "bpd",
+                        "source_url": "https://oilprice.com/Energy/Energy-General/The-First-Major-Oil-Supply-Disruption-Of-2023.html"
+                    },
+                    {
+                        "description": "OPEC+ agreement to increase output to unwind voluntary cuts",
+                        "commodity": "Crude Oil",
+                        "impact_type": "Supply Shock",
+                        "severity": 6,
+                        "likelihood_ratio": 1.0,
+                        "region": "Global",
+                        "date_detected": "2025-07-01",
+                        "start_date": "2025-08-01",
+                        "end_date": null,
+                        "supply_impact_value": 411000.0,
+                        "supply_impact_unit": "bpd",
+                        "source_url": "https://www.ainvest.com/news/assessing-term-outlook-crude-oil-geopolitical-supply-demand-dynamics-2508"
+                    }
+                ]
+            },
+            {
+                "commodity": "Natural Gas",
+                "direction": "LONG",
+                "weight_equal": 0.3333333333333333,
+                "weight_severity": 0.3695652173913044,
+                "take_profit": 6.18,
+                "stop_loss": 3.33,
+                "asymmetry_ratio": 3.2,
+                "upside_potential": 38.1,
+                "downside_risk": 25.6,
+                "is_priced_in": false,
+                "technical_context": "Price is trading near the 20-day low of 4.37, significantly below both the 50-day MA (6.00) and 200-day MA (7.07). The proximity to the recent low suggests the market has not yet factored in a major supply shock.",
+                "rationale": "The drone attack on a major liquefaction complex represents a critical supply shock. Given the current price is near the 20-day low, the market is currently ignoring the geopolitical risk premium, creating a high-asymmetry long entry opportunity.",
+                "catalysts": [
+                    {
+                        "description": "Shutdown of Qatar's Ras Laffan liquefaction complex following drone attack",
+                        "commodity": "Natural Gas",
+                        "impact_type": "Supply Shock",
+                        "severity": 9,
+                        "likelihood_ratio": 0.9,
+                        "region": "Middle East",
+                        "date_detected": "2026-02-27",
+                        "start_date": "2026-02-23",
+                        "end_date": null,
+                        "supply_impact_value": 20.0,
+                        "supply_impact_unit": "percent of global supply",
+                        "source_url": "https://www.fxempire.com/forecasts/article/natural-gas-news-supply-disruption-jitters-weather-demand-worries-before-eia-report-1583503"
+                    }
+                ]
+            },
+            {
+                "commodity": "Copper",
+                "direction": "LONG",
+                "weight_equal": 0.3333333333333333,
+                "weight_severity": 0.3478260869565218,
+                "take_profit": 4.2075,
+                "stop_loss": 3.6715,
+                "asymmetry_ratio": 3.0,
+                "upside_potential": 0.1056,
+                "downside_risk": 0.0352,
+                "is_priced_in": false,
+                "technical_context": "Price is trading above the 50-day MA (3.7079) but remains below the 200-day MA (3.8749). The current price is well within the 20-day range (3.725-3.928), suggesting the supply shock has not yet triggered a breakout above the recent high.",
+                "rationale": "The Grasberg mine shutdown represents a significant supply shock (Severity 8). Given the price is currently consolidating below the 200-day MA and has not breached the 20-day high, the market has not fully priced in the potential supply deficit. The setup offers a 3:1 reward-to-risk ratio based on 2x ATR stop-loss placement.",
+                "catalysts": [
+                    {
+                        "description": "Grasberg copper mine shutdown due to flooding accident",
+                        "commodity": "Copper",
+                        "impact_type": "Supply Shock",
+                        "severity": 8,
+                        "likelihood_ratio": 1.0,
+                        "region": "Indonesia",
+                        "date_detected": "2026-09-08",
+                        "start_date": "2026-09-08",
+                        "end_date": "2027-12-31",
+                        "supply_impact_value": 600000.0,
+                        "supply_impact_unit": "tonnes",
+                        "source_url": "https://www.economies.com/commodities/copper-news/the-crisis-facing-copper-markets-after-a-year-of-disruptions-47535"
+                    }
+                ]
+            }
+        ],
+        "pnl_equal": -0.1398428465401486,
+        "pnl_severity": -0.154022672435143,
+        "pnl_likelihood_weighted": -0.13656377525942953,
+        "pnl_active_risk": -0.028318278710786494,
+        "summary": "Backtest 2023-Q1: Base PnL: -15.40%, Active (TP/SL) PnL: -2.83%, Likelihood PnL: -13.66%"
+    },
+    {
+        "quarter": "2023-Q2",
+        "signals": [
+            {
+                "commodity": "Crude Oil",
+                "direction": "LONG",
+                "weight_equal": 0.3333333333333333,
+                "weight_severity": 0.30952380952380953,
+                "take_profit": 85.39,
+                "stop_loss": 69.19,
+                "asymmetry_ratio": 3.0,
+                "upside_potential": 12.85,
+                "downside_risk": 8.56,
+                "is_priced_in": false,
+                "technical_context": "Price is currently consolidating near the 50-day MA (75.77) and remains significantly below the 200-day MA (84.89). The recent low of 64.12 provides a strong support floor, while the 20-day high of 80.94 acts as the immediate resistance hurdle.",
+                "rationale": "The market has not fully priced in the cumulative impact of the 1.15 million bpd OPEC+ cuts, as evidenced by the price trading well below the 200-day moving average. The supply deficit created by the May production drop provides a bullish tailwind that is currently being suppressed by broader macro sentiment, creating a favorable risk-reward asymmetry.",
+                "catalysts": [
+                    {
+                        "description": "OPEC+ production cuts of 1.15 million bpd announced in April 2023, effective through the end of 2023.",
+                        "commodity": "Crude Oil",
+                        "impact_type": "Supply Shock",
+                        "severity": 7,
+                        "likelihood_ratio": 1.0,
+                        "region": "Global",
+                        "date_detected": "2023-05-10",
+                        "start_date": "2023-05-01",
+                        "end_date": "2023-12-31",
+                        "supply_impact_value": 1150000.0,
+                        "supply_impact_unit": "bpd",
+                        "source_url": "https://metallicman.com/2023/05/"
+                    },
+                    {
+                        "description": "Global oil production fell by 660 kb/d in May 2023 due to OPEC+ cuts and shut-ins in Iraq and Canada.",
+                        "commodity": "Crude Oil",
+                        "impact_type": "Supply Shock",
+                        "severity": 6,
+                        "likelihood_ratio": 1.0,
+                        "region": "Global",
+                        "date_detected": "2023-06-01",
+                        "start_date": "2023-05-01",
+                        "end_date": "2023-05-31",
+                        "supply_impact_value": 660000.0,
+                        "supply_impact_unit": "bpd",
+                        "source_url": "https://www.iea.org/reports/oil-market-report-june-2023"
+                    }
+                ]
+            },
+            {
+                "commodity": "Silver",
+                "direction": "LONG",
+                "weight_equal": 0.3333333333333333,
+                "weight_severity": 0.3333333333333333,
+                "take_profit": 26.41,
+                "stop_loss": 23.3,
+                "asymmetry_ratio": 3.1,
+                "upside_potential": 9.69,
+                "downside_risk": 3.22,
+                "is_priced_in": false,
+                "technical_context": "Price is trading above both 50-day (22.22) and 200-day (20.96) moving averages, indicating a strong bullish trend. Current price is near the 20-day high (24.16), suggesting momentum is building rather than exhausted.",
+                "rationale": "The supply shock in Peru represents a significant reduction in annual output. Given the price is currently consolidating near the 20-day high without having broken out significantly, the market has not fully priced in the supply deficit. The risk-reward profile is favorable with a tight stop based on 2x ATR.",
+                "catalysts": [
+                    {
+                        "description": "Labor strikes in Peru caused a loss of 15 million ounces of silver production in 2024.",
+                        "commodity": "Silver",
+                        "impact_type": "Supply Shock",
+                        "severity": 7,
+                        "likelihood_ratio": 1.0,
+                        "region": "Peru",
+                        "date_detected": "2025-01-01",
+                        "start_date": "2024-01-01",
+                        "end_date": "2024-12-31",
+                        "supply_impact_value": 15000000.0,
+                        "supply_impact_unit": "ounces",
+                        "source_url": "https://www.bitget.com/news/detail/12560604961428"
+                    }
+                ]
+            },
+            {
+                "commodity": "Copper",
+                "direction": "LONG",
+                "weight_equal": 0.3333333333333333,
+                "weight_severity": 0.35714285714285715,
+                "take_profit": 4.53,
+                "stop_loss": 3.96,
+                "asymmetry_ratio": 3.1,
+                "upside_potential": 0.103,
+                "downside_risk": 0.035,
+                "is_priced_in": false,
+                "technical_context": "Price is trading above both 50-day (4.09) and 200-day (3.75) moving averages, indicating a bullish trend. Current price is consolidating near the 20-day high (4.16), suggesting strong momentum despite recent supply shocks not yet fully reflected in the price action.",
+                "rationale": "The combined supply shock of 450,000 tonnes from Escondida and Grasberg represents a significant tightening of the global copper market. Given the current price is hovering just above the 50-day MA and has not yet broken out decisively above the 20-day high, the market has not fully priced in the severity of these supply constraints.",
+                "catalysts": [
+                    {
+                        "description": "Escondida mine production drop of 350,000 metric tons due to drought, labor unrest, and regulatory delays.",
+                        "commodity": "Copper",
+                        "impact_type": "Supply Shock",
+                        "severity": 8,
+                        "likelihood_ratio": 1.0,
+                        "region": "Chile",
+                        "date_detected": "2025-09-01",
+                        "start_date": "2025-01-01",
+                        "end_date": "2025-12-31",
+                        "supply_impact_value": 350000.0,
+                        "supply_impact_unit": "tonnes",
+                        "source_url": "https://www.ainvest.com/news/copper-crucible-navigating-supply-shocks-green-demand-strategic-investment-gains-2509-2/"
+                    },
+                    {
+                        "description": "Grasberg mine production reduction of 100,000 tonnes due to operational fragility.",
+                        "commodity": "Copper",
+                        "impact_type": "Supply Shock",
+                        "severity": 6,
+                        "likelihood_ratio": 1.0,
+                        "region": "Indonesia",
+                        "date_detected": "2025-09-01",
+                        "start_date": "2025-01-01",
+                        "end_date": "2025-12-31",
+                        "supply_impact_value": 100000.0,
+                        "supply_impact_unit": "tonnes",
+                        "source_url": "https://www.ainvest.com/news/copper-crucible-navigating-supply-shocks-green-demand-strategic-investment-gains-2509-2/"
+                    }
+                ]
+            }
+        ],
+        "pnl_equal": -0.09393317823502495,
+        "pnl_severity": -0.09304721901943491,
+        "pnl_likelihood_weighted": -0.09304721901943491,
+        "pnl_active_risk": -0.06090093383668085,
+        "summary": "Backtest 2023-Q2: Base PnL: -9.30%, Active (TP/SL) PnL: -6.09%, Likelihood PnL: -9.30%"
+    },
+    {
+        "quarter": "2023-Q3",
+        "signals": [
+            {
+                "commodity": "Crude Oil",
+                "direction": "LONG",
+                "weight_equal": 0.5,
+                "weight_severity": 0.375,
+                "take_profit": 85.35,
+                "stop_loss": 65.75,
+                "asymmetry_ratio": 3.0,
+                "upside_potential": 20.8,
+                "downside_risk": 6.9,
+                "is_priced_in": false,
+                "technical_context": "Price is currently trading below both the 50-day MA (71.76) and 200-day MA (77.75), indicating a bearish trend. However, the price is holding well above the 20-day low (66.80), suggesting a potential base formation. The current price is significantly below the 20-day high (75.06), providing room for mean reversion.",
+                "rationale": "The combination of Russian and Saudi production cuts creates a significant supply deficit that is not fully reflected in the current price, which remains depressed due to broader macro fears. The geopolitical risk premium from the Middle East is currently undervalued given the potential for supply chain disruption. The risk-reward profile is highly asymmetric with a 3:1 ratio.",
+                "catalysts": [
+                    {
+                        "description": "Russian production cut of 500,000 b/d in response to price caps and EU import bans.",
+                        "commodity": "Crude Oil",
+                        "impact_type": "Supply Shock",
+                        "severity": 7,
+                        "likelihood_ratio": 1.0,
+                        "region": "Russia",
+                        "date_detected": "2023-02-10",
+                        "start_date": "2023-03-01",
+                        "end_date": null,
+                        "supply_impact_value": 500000.0,
+                        "supply_impact_unit": "bpd",
+                        "source_url": "https://oilprice.com/Energy/Energy-General/The-First-Major-Oil-Supply-Disruption-Of-2023.html"
+                    },
+                    {
+                        "description": "Saudi Arabia implements steeper production cuts, reducing output to a two-year low.",
+                        "commodity": "Crude Oil",
+                        "impact_type": "Supply Shock",
+                        "severity": 8,
+                        "likelihood_ratio": 1.0,
+                        "region": "Saudi Arabia",
+                        "date_detected": "2023-07-01",
+                        "start_date": "2023-07-01",
+                        "end_date": null,
+                        "supply_impact_value": 1000000.0,
+                        "supply_impact_unit": "bpd",
+                        "source_url": "https://www.iea.org/reports/oil-market-report-july-2023"
+                    },
+                    {
+                        "description": "Hamas-Israel war disrupts oil trade routes in the Middle East.",
+                        "commodity": "Crude Oil",
+                        "impact_type": "Geopolitical",
+                        "severity": 6,
+                        "likelihood_ratio": 1.0,
+                        "region": "Middle East",
+                        "date_detected": "2023-10-01",
+                        "start_date": "2023-10-01",
+                        "end_date": null,
+                        "supply_impact_value": null,
+                        "supply_impact_unit": null,
+                        "source_url": "https://oilprice.com/Energy/Energy-General/Supply-and-Demand-Shocks-Still-Rocking-Energy-Markets.html"
+                    }
+                ]
+            },
+            {
+                "commodity": "Silver",
+                "direction": "LONG",
+                "weight_equal": 0.5,
+                "weight_severity": 0.625,
+                "take_profit": 24.85,
+                "stop_loss": 22.13,
+                "asymmetry_ratio": 3.02,
+                "upside_potential": 8.94,
+                "downside_risk": 2.98,
+                "is_priced_in": false,
+                "technical_context": "Price is trading between the 200-day MA (22.42) and 50-day MA (24.02). Current price is near the 20-day low (22.30), suggesting a mean-reversion opportunity following recent supply-side shocks.",
+                "rationale": "The combination of labor strikes in Mexico and Peru creates a tangible supply deficit. With price hovering near the 200-day MA support and the 20-day low, the downside is limited by strong technical floors, while the supply disruption provides a catalyst for a move back toward the 50-day MA.",
+                "catalysts": [
+                    {
+                        "description": "Strike at Tizapa unit leads to production loss.",
+                        "commodity": "Silver",
+                        "impact_type": "Supply Shock",
+                        "severity": 4,
+                        "likelihood_ratio": 1.0,
+                        "region": "Mexico",
+                        "date_detected": "2024-10-01",
+                        "start_date": null,
+                        "end_date": null,
+                        "supply_impact_value": null,
+                        "supply_impact_unit": null,
+                        "source_url": "https://www.penoles.com.mx/assets/files/reportes/BMV/trimestral/en/IPSAB_3T2024_USD_EN.pdf"
+                    },
+                    {
+                        "description": "Peruvian labor strikes slash output.",
+                        "commodity": "Silver",
+                        "impact_type": "Supply Shock",
+                        "severity": 6,
+                        "likelihood_ratio": 1.0,
+                        "region": "Peru",
+                        "date_detected": "2024-01-01",
+                        "start_date": "2024-01-01",
+                        "end_date": "2024-12-31",
+                        "supply_impact_value": 15000000.0,
+                        "supply_impact_unit": "ounces",
+                        "source_url": "https://www.ainvest.com/news/silver-asymmetric-upside-navigating-geopolitical-risks-industrial-demand-2025-2509"
+                    }
+                ]
+            }
+        ],
+        "pnl_equal": 0.13603835745951717,
+        "pnl_severity": 0.09482227078013745,
+        "pnl_likelihood_weighted": 0.09482227078013745,
+        "pnl_active_risk": 0.13694697463467256,
+        "summary": "Backtest 2023-Q3: Base PnL: 9.48%, Active (TP/SL) PnL: 13.69%, Likelihood PnL: 9.48%"
+    },
+    {
+        "quarter": "2023-Q4",
+        "signals": [
+            {
+                "commodity": "Crude Oil",
+                "direction": "LONG",
+                "weight_equal": 0.5,
+                "weight_severity": 0.2631578947368421,
+                "take_profit": 105.1,
+                "stop_loss": 86.02,
+                "asymmetry_ratio": 3.03,
+                "upside_potential": 15.76,
+                "downside_risk": 5.25,
+                "is_priced_in": false,
+                "technical_context": "Price is trading above both 50-day (84.31) and 200-day (77.29) moving averages, indicating a strong bullish trend. Current price is well within the 20-day range (83.46-95.03), suggesting room for a breakout above recent highs given the extreme supply-side catalysts.",
+                "rationale": "The confluence of severe supply shocks, particularly the 10 million bpd production cut in the Middle East and ongoing geopolitical instability, creates a significant supply-demand imbalance. Despite the recent rally, the magnitude of these supply disruptions is not fully reflected in the current price, providing a favorable risk-reward profile for a long position.",
+                "catalysts": [
+                    {
+                        "description": "US Treasury sanctions on six Iran-based companies and three firms in Malaysia and Singapore targeting petrochemical production and export.",
+                        "commodity": "Crude Oil",
+                        "impact_type": "Geopolitical",
+                        "severity": 6,
+                        "likelihood_ratio": 1.0,
+                        "region": "Middle East",
+                        "date_detected": "2023-01-01",
+                        "start_date": null,
+                        "end_date": null,
+                        "supply_impact_value": null,
+                        "supply_impact_unit": null,
+                        "source_url": "https://oilprice.com/Energy/Energy-General/The-First-Major-Oil-Supply-Disruption-Of-2023.html"
+                    },
+                    {
+                        "description": "Keystone pipeline oil leak caused by weld flaw and bending stress.",
+                        "commodity": "Crude Oil",
+                        "impact_type": "Supply Shock",
+                        "severity": 5,
+                        "likelihood_ratio": 1.0,
+                        "region": "North America",
+                        "date_detected": "2023-01-01",
+                        "start_date": "2022-12-01",
+                        "end_date": null,
+                        "supply_impact_value": null,
+                        "supply_impact_unit": null,
+                        "source_url": "https://oilprice.com/Energy/Energy-General/The-First-Major-Oil-Supply-Disruption-Of-2023.html"
+                    },
+                    {
+                        "description": "EIA cut 2024 US production forecast to 12.65 million b/d due to Bakken shale maturation.",
+                        "commodity": "Crude Oil",
+                        "impact_type": "Supply Shock",
+                        "severity": 4,
+                        "likelihood_ratio": 0.9,
+                        "region": "North America",
+                        "date_detected": "2023-01-01",
+                        "start_date": null,
+                        "end_date": null,
+                        "supply_impact_value": 150000.0,
+                        "supply_impact_unit": "bpd",
+                        "source_url": "https://oilprice.com/Energy/Energy-General/The-First-Major-Oil-Supply-Disruption-Of-2023.html"
+                    },
+                    {
+                        "description": "Hamas-Israel war causing geopolitical supply disruption in the Middle East.",
+                        "commodity": "Crude Oil",
+                        "impact_type": "Geopolitical",
+                        "severity": 9,
+                        "likelihood_ratio": 1.0,
+                        "region": "Middle East",
+                        "date_detected": "2023-10-01",
+                        "start_date": "2023-10-01",
+                        "end_date": null,
+                        "supply_impact_value": null,
+                        "supply_impact_unit": null,
+                        "source_url": "https://oilprice.com/Energy/Energy-General/Supply-and-Demand-Shocks-Still-Rocking-Energy-Markets.html"
+                    },
+                    {
+                        "description": "Middle East Gulf countries cut production by 10 million barrels per day due to conflict.",
+                        "commodity": "Crude Oil",
+                        "impact_type": "Supply Shock",
+                        "severity": 10,
+                        "likelihood_ratio": 0.9,
+                        "region": "Middle East",
+                        "date_detected": "2024-01-01",
+                        "start_date": null,
+                        "end_date": null,
+                        "supply_impact_value": 10000000.0,
+                        "supply_impact_unit": "bpd",
+                        "source_url": "https://www.ainvest.com/news/oil-supply-shock-pits-stocks-sell-strait-hormuz-closure-drives-historic-imbalance-2603/"
+                    },
+                    {
+                        "description": "US crude production fell by 410,000 bpd in January due to severe winter storms.",
+                        "commodity": "Crude Oil",
+                        "impact_type": "Supply Shock",
+                        "severity": 6,
+                        "likelihood_ratio": 1.0,
+                        "region": "North America",
+                        "date_detected": "2024-01-01",
+                        "start_date": null,
+                        "end_date": null,
+                        "supply_impact_value": 410000.0,
+                        "supply_impact_unit": "bpd",
+                        "source_url": "https://www.tekedia.com/april-oil-shock-set-to-deepen-as-iea-warns-of-historic-supply-crisis/?srsltid=AfmBOoqskZNEHr7ip5BHvH3_WeSeZq_nsY1iPHzGvRp9PJlQARGmmSm7"
+                    }
+                ]
+            },
+            {
+                "commodity": "Copper",
+                "direction": "LONG",
+                "weight_equal": 0.5,
+                "weight_severity": 0.7368421052631579,
+                "take_profit": 3.99,
+                "stop_loss": 3.637,
+                "asymmetry_ratio": 3.25,
+                "upside_potential": 0.0708,
+                "downside_risk": 0.0239,
+                "is_priced_in": false,
+                "technical_context": "Price is currently trading below both the 50-day (3.76) and 200-day (3.89) moving averages, indicating a bearish trend. However, the price is well above the 20-day low (3.61), suggesting support is holding despite the negative technical alignment.",
+                "rationale": "The supply shock at El Teniente (a major producer) provides a significant fundamental catalyst that is not yet reflected in the price, as copper has been trending lower. The risk-reward profile is favorable given the proximity to recent support levels and the potential for a supply-driven mean reversion toward the 50-day MA.",
+                "catalysts": [
+                    {
+                        "description": "Earthquake forced Codelco to halt mining and smelting at El Teniente site.",
+                        "commodity": "Copper",
+                        "impact_type": "Supply Shock",
+                        "severity": 7,
+                        "likelihood_ratio": 1.0,
+                        "region": "Chile",
+                        "date_detected": "2024-08-01",
+                        "start_date": "2024-07-01",
+                        "end_date": null,
+                        "supply_impact_value": null,
+                        "supply_impact_unit": null,
+                        "source_url": "https://tradingeconomics.com/commodity/copper/news/490859"
+                    }
+                ]
+            }
+        ],
+        "pnl_equal": -0.062446331530919316,
+        "pnl_severity": -0.00045718994813828684,
+        "pnl_likelihood_weighted": 0.00123853195620003,
+        "pnl_active_risk": -0.007281520788676147,
+        "summary": "Backtest 2023-Q4: Base PnL: -0.05%, Active (TP/SL) PnL: -0.73%, Likelihood PnL: 0.12%"
+    }
+]
